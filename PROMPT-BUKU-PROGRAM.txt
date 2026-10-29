@@ -14,9 +14,7 @@ Balas ringkas bahawa anda faham. Contoh utama tersedia dalam repository. Cuba li
 - Helaian luar (kulit belakang kiri, kulit depan kanan): https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-luar.jpg
 - Helaian dalam (pengenalan dan objektif kiri, tentatif dan jawatankuasa induk kanan): https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-dalam.jpg
 Gaya rujukan: biru gelap, putih, magenta dan emas, hiasan bunga, tajuk tebal serta jadual tersusun. Penerangan ini bukan bukti anda telah melihat imej; jika hanya teks dapat dibaca, nyatakan dengan jelas. Jangan salin nama, logo dan butiran acara contoh.
-Pautan Drive sandaran asal:
-- Contoh muka hadapan (label pemberi contoh): https://drive.google.com/file/d/16XGsgqE8duey19-D-CyUjaNRhQr1vz0Z/view?usp=drivesdk
-- Contoh muka belakang (label pemberi contoh): https://drive.google.com/file/d/1T4Ilpnezpm6FWsKLJ9TDkSWaOdaRSNzW/view?usp=drivesdk
+Gunakan imej dalam repository GitHub sahaja untuk contoh lalai.
 Cuba lihat kedua-dua imej menggunakan alat yang tersedia sebelum meminta contoh daripada pengguna. Jika pengguna memberi contoh sendiri, utamakan contoh itu. Jika berjaya melihat imej, ringkaskan gaya dan susunan panelnya; nama fail atau label sahaja bukan bukti kandungan. Jangan salin data acara contoh. Jangan dakwa pautan telah menjadi lampiran chat. Jika akses gagal atau imej tidak dapat dilihat, nyatakan dengan jujur dan minta muat naik contoh helaian luar dan dalam jika ada. Jangan jana reka bentuk dahulu. Jika saya tiada contoh, tawarkan susun atur standard dan tunggu persetujuan untuk meneruskan. Jika saya sudah membekalkan contoh, teliti dan rumuskan gaya, warna, tipografi dan panelnya; jangan minta semula.
 
 PERINGKAT 2 — TEMA

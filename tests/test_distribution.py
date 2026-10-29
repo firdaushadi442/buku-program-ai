@@ -43,8 +43,9 @@ class DistributionTests(unittest.TestCase):
     def test_supplied_links_and_approved_images(self):
         for name in ["README.md", "PROMPT-BUKU-PROGRAM.txt"]:
             text = (ROOT/name).read_text(encoding="utf-8")
-            for link in ['https://drive.google.com/file/d/16XGsgqE8duey19-D-CyUjaNRhQr1vz0Z/view?usp=drivesdk', 'https://drive.google.com/file/d/1T4Ilpnezpm6FWsKLJ9TDkSWaOdaRSNzW/view?usp=drivesdk']:
-                self.assertIn(link, text)
+            self.assertNotIn("drive.google.com", text)
+            for filename in ["contoh-helaian-luar.jpg", "contoh-helaian-dalam.jpg"]:
+                self.assertIn("https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/" + filename, text)
         images = [p for p in ROOT.rglob("*") if ".git" not in p.parts and p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp", ".gif")]
         self.assertEqual({p.relative_to(ROOT).as_posix() for p in images}, {"assets/contoh-helaian-luar.jpg", "assets/contoh-helaian-dalam.jpg"})
         for p in images:

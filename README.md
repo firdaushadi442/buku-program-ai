@@ -13,7 +13,7 @@ Tampal mesej ini dalam ChatGPT anda:
 ### Arahan permulaan untuk AI
 
 1. Baca [prompt penuh](PROMPT-BUKU-PROGRAM.txt). Jika halaman fail tidak dapat dibaca, cuba [versi teks mentah](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/PROMPT-BUKU-PROGRAM.txt). Jangan sekadar meringkaskan repo; jalankan aliran bantu pengguna membuat buku program.
-2. Cuba lihat kedua-dua imej contoh dalam repo di bawah, termasuk pautan imej terus jika halaman GitHub tidak memaparkannya. Jangan dakwa imej telah menjadi lampiran chat secara automatik. Pautan Drive dikekalkan sebagai sumber sandaran.
+2. Cuba lihat kedua-dua imej contoh dalam repo di bawah, termasuk pautan imej terus jika halaman GitHub tidak memaparkannya. Jangan dakwa imej telah menjadi lampiran chat secara automatik. Rujuk imej dalam GitHub sahaja; jangan cari contoh melalui Google Drive.
 3. Jika benar-benar dapat melihatnya, ringkaskan gaya dan susunan panel dengan pendek. Jangan salin nama, logo, tarikh atau kandungan acara contoh.
 4. Jika tidak dapat melihat imej (termasuk jika hanya tajuk fail dapat dibaca), nyatakan hadnya dan minta pengguna muat naik contoh atau memilih untuk meneruskan tanpa contoh. Jangan reka penerangan.
 5. Selepas contoh diteliti atau pengguna bersetuju tanpa contoh, tawarkan tema. Minta maklumat yang belum lengkap, semak kandungan, kemudian tunggu pengesahan sebelum penjanaan.
@@ -36,14 +36,6 @@ Kedua-dua imej diterbitkan dengan kebenaran pemberi contoh. Gunakan gaya dan sus
 [Fail imej terus — helaian dalam](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-dalam.jpg)
 
 Penerangan teks ini ialah panduan susun atur, bukan bukti AI telah melihat imej. Jika hanya teks dapat dibaca, nyatakan perkara itu. Contoh mengandungi nama dan logo acara asal: jangan guna semula untuk acara pengguna. Imej contoh bukan aset berlesen MIT untuk penggunaan semula; lihat [notis aset](assets/NOTICE.md).
-
-### Pautan Drive sandaran
-
-
-- **Contoh muka hadapan** (label pemberi contoh): [Buka di Google Drive](https://drive.google.com/file/d/16XGsgqE8duey19-D-CyUjaNRhQr1vz0Z/view?usp=drivesdk)
-- **Contoh muka belakang** (label pemberi contoh): [Buka di Google Drive](https://drive.google.com/file/d/1T4Ilpnezpm6FWsKLJ9TDkSWaOdaRSNzW/view?usp=drivesdk)
-
-Pautan dikekalkan tepat seperti diberikan. Label di atas bukan pengesahan kandungan visual bagi setiap fail. Gunakan contoh untuk gaya dan susunan sahaja. Kebenaran perkongsian dikawal oleh pemilik Drive; repo ini tidak mengubahnya. Jangan salin butiran peribadi daripada contoh ke buku program baharu.
 
 **Status:** aliran satu pautan ini disediakan untuk ujian pengguna. Akses imej dan pematuhan arahan belum disahkan dalam ChatGPT. Jika akses repo gagal, gunakan kaedah salin-tampal di bawah.
 
