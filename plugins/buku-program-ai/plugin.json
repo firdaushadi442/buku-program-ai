@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "buku-program-ai",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Panduan buku program A4 lipat dua dengan contoh visual dan penjanaan berperingkat.",
   "license": "MIT",
   "repository": "https://github.com/firdaushadi442/buku-program-ai",
@@ -12,7 +12,8 @@
         "shortDescription": "Buku program A4 lipat dua",
         "category": "Productivity",
         "defaultPrompt": [
-          "Buatkan buku program menggunakan contoh yang dibundel."
+          "Bantu saya menyediakan buku program A4 lipat dua untuk majlis apresiasi.",
+          "Gunakan contoh yang dibundel; tanya tema dan maklumat yang masih diperlukan sebelum menjana helaian luar."
         ],
         "websiteURL": "https://github.com/firdaushadi442/buku-program-ai",
         "supportURL": "https://github.com/firdaushadi442/buku-program-ai/issues",
