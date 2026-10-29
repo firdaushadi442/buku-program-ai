@@ -5,7 +5,7 @@
 - [ ] Tema dipilih, bukan diandaikan.
 - [ ] Nama, gelaran, tarikh, masa dan tempat disahkan.
 - [ ] Maklumat yang hilang atau bercanggah diselesaikan.
-- [ ] Teks serta pembahagian panel diluluskan.
+- [ ] Maklumat mencukupi; terus jana helaian luar tanpa meminta kelulusan draf teks.
 - [ ] Tiada butiran acara lama disalin daripada contoh.
 
 ## Reka bentuk dan kandungan

@@ -8,7 +8,7 @@ Pakej prompt Bahasa Melayu untuk menghasilkan **buku program A4 landskap lipat d
 
 Tampal mesej ini dalam ChatGPT anda:
 
-> Tolong buat buku program menggunakan panduan di https://github.com/firdaushadi442/buku-program-ai . Baca arahan permulaan dalam README dan keseluruhan PROMPT-BUKU-PROGRAM.txt. Cuba teliti kedua-dua pautan contoh yang diberikan dahulu, kemudian minta tema dan maklumat saya. Jangan jana reka bentuk sehingga kandungan disahkan. Hasilkan helaian luar dahulu, tunggu kelulusan, kemudian helaian dalam.
+> Tolong buat buku program menggunakan panduan di https://github.com/firdaushadi442/buku-program-ai . Baca arahan permulaan dalam README dan keseluruhan PROMPT-BUKU-PROGRAM.txt. Cuba teliti kedua-dua pautan contoh yang diberikan dahulu, kemudian minta tema dan maklumat saya. Apabila tema dan maklumat mencukupi, terus jana poster tanpa meminta pengesahan tambahan. Hasilkan helaian luar dahulu, tunggu kelulusan, kemudian helaian dalam.
 
 ### Arahan permulaan untuk AI
 
@@ -16,7 +16,7 @@ Tampal mesej ini dalam ChatGPT anda:
 2. Cuba lihat kedua-dua imej contoh dalam repo di bawah, termasuk pautan imej terus jika halaman GitHub tidak memaparkannya. Jangan dakwa imej telah menjadi lampiran chat secara automatik. Rujuk imej dalam GitHub sahaja; jangan cari contoh melalui Google Drive.
 3. Jika benar-benar dapat melihatnya, ringkaskan gaya dan susunan panel dengan pendek. Jangan salin nama, logo, tarikh atau kandungan acara contoh.
 4. Jika tidak dapat melihat imej (termasuk jika hanya tajuk fail dapat dibaca), nyatakan hadnya dan minta pengguna muat naik contoh atau memilih untuk meneruskan tanpa contoh. Jangan reka penerangan.
-5. Selepas contoh diteliti atau pengguna bersetuju tanpa contoh, tawarkan tema. Minta maklumat yang belum lengkap, semak kandungan, kemudian tunggu pengesahan sebelum penjanaan.
+5. Selepas contoh diteliti atau pengguna bersetuju tanpa contoh, tawarkan tema. Minta maklumat yang belum lengkap dan semak kandungan sendiri. Apabila tema dan maklumat mencukupi, terus jana poster helaian luar tanpa meminta kelulusan draf teks atau pengesahan tambahan.
 6. Jana helaian luar dahulu; tunggu semakan/kelulusan sebelum helaian dalam. Istilah “muka hadapan” dan “muka belakang” mungkin merujuk kepada helaian penuh, bukan kulit sahaja: sahkan maksud jika kabur.
 
 ### Imej contoh dalam repository
@@ -43,7 +43,7 @@ Penerangan teks ini ialah panduan susun atur, bukan bukti AI telah melihat imej.
 
 1. Buka [PROMPT-BUKU-PROGRAM.txt](PROMPT-BUKU-PROGRAM.txt), salin seluruh kandungannya, kemudian tampal dalam perbualan baharu ChatGPT.
 2. Ikut soalan AI: berikan contoh jika ada, pilih tema, kemudian berikan maklumat atau kertas kerja. Gunakan [borang maklumat](templates/maklumat-program.txt) jika perlu. Jangan muat naik data sulit yang tidak diperlukan.
-3. Sahkan kandungan sebelum reka bentuk. Semak helaian luar dahulu, kemudian helaian dalam. Gunakan [senarai semak](CHECKLIST.md) sebelum mencetak.
+3. Apabila maklumat mencukupi, AI terus menjana poster helaian luar tanpa pengesahan tambahan. Semak hasil helaian luar sebelum helaian dalam. Gunakan [senarai semak](CHECKLIST.md) sebelum mencetak.
 
 **Pilihan lampiran:** jika akaun anda menyokong muat naik TXT, lampirkan fail prompt dan hantar:
 
@@ -53,7 +53,7 @@ Memberi pautan GitHub tidak menjamin AI telah membaca fail atau melihat contoh. 
 
 ## Apa yang berlaku
 
-Contoh → tema → maklumat → semakan kandungan → **helaian luar** → kelulusan → **helaian dalam** → semakan akhir.
+Contoh → tema → maklumat → **terus jana poster helaian luar** → kelulusan hasil → **helaian dalam** → semakan akhir.
 
 | Helaian | Panel kiri | Panel kanan |
 |---|---|---|

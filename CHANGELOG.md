@@ -2,6 +2,8 @@
 
 ## Unreleased — contoh imej dalam repo
 
+- Selepas tema dan maklumat mencukupi, terus jana poster helaian luar tanpa meminta pengesahan kandungan tambahan. Kelulusan antara helaian luar dan dalam dikekalkan.
+
 - Buang semua pautan Google Drive; contoh lalai dirujuk terus daripada GitHub sahaja.
 
 - Tambah dua JPEG yang dilampirkan pemilik dengan izin penerbitan.

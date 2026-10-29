@@ -10,7 +10,7 @@ Ujian automatik hanya memeriksa fail, konsistensi asas, pautan dan kandungan ter
 |---|---|
 | Prompt sahaja | Minta contoh; belum menghasilkan imej |
 | Tiada contoh | Tawarkan susun atur standard dan tunggu persetujuan |
-| Tema dan bahan sudah lengkap | Tidak mengulang soalan; semak kandungan dahulu |
+| Tema dan bahan sudah lengkap | Tidak mengulang soalan; semak sendiri kandungan dan terus jana jika maklumat mencukupi |
 | Kertas kerja terlalu awal | Simpan bahan; selesaikan pemilihan tema dahulu |
 | Tarikh hilang | Tanya tarikh; jangan reka |
 | Contoh mengandungi acara lama | Gunakan gaya sahaja, bukan butiran acara lama |
@@ -25,7 +25,7 @@ Ujian automatik hanya memeriksa fail, konsistensi asas, pautan dan kandungan ter
 
 ## Rubrik penerimaan manual
 
-Lulus hanya jika tiada fakta rekaan, tiada penjanaan pramatang tanpa izin, susunan panel betul, semua kandungan penting tepat, tiada data sulit tidak perlu dan status fail dilaporkan jujur. Catat model/keupayaan yang tersedia, input rekaan, respons sebenar dan kegagalan. Jangan masukkan perbualan peribadi dalam repo.
+Lulus hanya jika tiada fakta rekaan, tiada penjanaan sebelum tema dan maklumat mencukupi, serta tiada pengesahan tambahan sebelum helaian luar, susunan panel betul, semua kandungan penting tepat, tiada data sulit tidak perlu dan status fail dilaporkan jujur. Catat model/keupayaan yang tersedia, input rekaan, respons sebenar dan kegagalan. Jangan masukkan perbualan peribadi dalam repo.
 
 ## Ujian struktur
 

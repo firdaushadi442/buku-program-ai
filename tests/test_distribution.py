@@ -27,7 +27,7 @@ class DistributionTests(unittest.TestCase):
         text=(ROOT/"PROMPT-BUKU-PROGRAM.txt").read_text(encoding="utf-8")
         for stage in range(1,7):
             self.assertIn(f"PERINGKAT {stage}",text)
-        for phrase in ["297 × 210 mm", "halaman 4 / kulit belakang di KIRI", "halaman 1 / kulit depan di KANAN", "halaman 2 di KIRI", "halaman 3 di KANAN", "Tunggu pengesahan saya", "Jangan mereka-reka", "Jika fungsi itu tidak tersedia", "bukan bukti", "LETAK LOGO DI SINI"]:
+        for phrase in ["297 × 210 mm", "halaman 4 / kulit belakang di KIRI", "halaman 1 / kulit depan di KANAN", "halaman 2 di KIRI", "halaman 3 di KANAN", "tanpa meminta pengesahan tambahan", "Jangan mereka-reka", "Jika fungsi itu tidak tersedia", "bukan bukti", "LETAK LOGO DI SINI"]:
             self.assertIn(phrase,text)
 
     def test_no_personal_paths_or_integrations(self):

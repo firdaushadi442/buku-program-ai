@@ -15,7 +15,7 @@ Baca dan ikuti `PROMPT-BUKU-PROGRAM.txt` dalam folder yang sama. Dalam ChatGPT, 
 
 ## Aliran wajib
 
-Contoh atau persetujuan tanpa contoh → tema → maklumat program → pengesahan kandungan dan panel → helaian luar → kelulusan → helaian dalam → semakan dan penyerahan.
+Contoh atau persetujuan tanpa contoh → tema → maklumat program mencukupi → terus jana poster helaian luar tanpa pengesahan tambahan → kelulusan → helaian dalam → semakan dan penyerahan.
 
 ## Fail sokongan
 
