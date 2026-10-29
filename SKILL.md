@@ -13,6 +13,10 @@ Pakej arahan untuk menyediakan buku program melalui perbualan AI, bukan automasi
 
 Baca dan ikuti `PROMPT-BUKU-PROGRAM.txt` dalam folder yang sama. Dalam ChatGPT, cara paling mudah ialah menyalin seluruh kandungan fail itu sebagai mesej pertama. Jika menggunakan lampiran TXT, sertakan arahan jelas supaya mengikutinya. Jangan menganggap fail ini dipasang secara automatik hanya kerana ia dinamakan SKILL.md.
 
+## Langkah pertama
+
+Minta pengguna memilih ChatGPT Work dahulu mengikut prompt utama. Jika pengguna sudah menyatakan mereka menggunakan Work, teruskan. Jangan mendakwa dapat mengesan atau menukar mod secara automatik.
+
 ## Aliran wajib
 
 Contoh atau persetujuan tanpa contoh → tema → maklumat program mencukupi → terus jana poster helaian luar tanpa pengesahan tambahan → kelulusan → helaian dalam → semakan dan penyerahan.

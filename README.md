@@ -4,6 +4,12 @@ Pakej prompt Bahasa Melayu untuk menghasilkan **buku program A4 landskap lipat d
 
 **Bukan aplikasi, bukan bot, bukan automasi pelayar dan bukan Custom GPT yang telah diterbitkan.** Tiada Python, API key atau pemasangan diperlukan untuk menggunakannya. SKILL.md disediakan untuk ejen yang membaca format itu; pengguna ChatGPT biasa menggunakan fail prompt.
 
+## Langkah pertama — pilih ChatGPT Work
+
+Sebelum mula, buka ChatGPT dan pilih **Work**, kemudian hantar permintaan membuat buku program bersama pautan repo ini. Jika pilihan itu tiada, ketersediaan bergantung pada akaun dan tetapan akses. Rujukan rasmi: [ChatGPT Work and Codex](https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex).
+
+**Arahan pertama untuk AI:** minta pengguna menggunakan ChatGPT Work sebelum meneliti contoh atau meminta tema. Jika pengguna sudah menyatakan mereka berada dalam Work, teruskan tanpa mengulang. Jangan mendakwa boleh mengesan atau menukar mod secara automatik. Jika Work tiada, tawarkan aliran biasa hanya dengan persetujuan pengguna; jangan jamin akses imej atau fungsi penjanaan.
+
 ## Guna melalui pautan repo (percubaan)
 
 Tampal mesej ini dalam ChatGPT anda:
