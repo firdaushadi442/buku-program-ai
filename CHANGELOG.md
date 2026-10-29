@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — ujian pautan repo
+
+- Tambah arahan permulaan melalui pautan GitHub serta dua pautan contoh Google Drive.
+- Hanya pautan diterbitkan; tiada imej dimasukkan ke repo.
+- Wajib nyatakan jika imej tidak dapat dilihat; sediakan laluan muat naik manual.
+- Ujian akses dan tingkah laku dalam ChatGPT menunggu pengguna.
+
 ## 0.1.0
 
 - Pakej prompt Bahasa Melayu untuk buku program empat halaman.

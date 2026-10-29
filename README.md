@@ -4,6 +4,30 @@ Pakej prompt Bahasa Melayu untuk menghasilkan **buku program A4 landskap lipat d
 
 **Bukan aplikasi, bukan bot, bukan automasi pelayar dan bukan Custom GPT yang telah diterbitkan.** Tiada Python, API key atau pemasangan diperlukan untuk menggunakannya. SKILL.md disediakan untuk ejen yang membaca format itu; pengguna ChatGPT biasa menggunakan fail prompt.
 
+## Guna melalui pautan repo (percubaan)
+
+Tampal mesej ini dalam ChatGPT anda:
+
+> Tolong buat buku program menggunakan panduan di https://github.com/firdaushadi442/buku-program-ai . Baca arahan permulaan dalam README dan keseluruhan PROMPT-BUKU-PROGRAM.txt. Cuba teliti kedua-dua pautan contoh yang diberikan dahulu, kemudian minta tema dan maklumat saya. Jangan jana reka bentuk sehingga kandungan disahkan. Hasilkan helaian luar dahulu, tunggu kelulusan, kemudian helaian dalam.
+
+### Arahan permulaan untuk AI
+
+1. Baca [prompt penuh](PROMPT-BUKU-PROGRAM.txt). Jika halaman fail tidak dapat dibaca, cuba [versi teks mentah](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/PROMPT-BUKU-PROGRAM.txt). Jangan sekadar meringkaskan repo; jalankan aliran bantu pengguna membuat buku program.
+2. Cuba lihat kedua-dua contoh Drive di bawah menggunakan alat yang tersedia. Pautan sahaja disediakan; imej tidak disimpan dalam repo. Jangan dakwa imej telah dimasukkan sebagai lampiran secara automatik.
+3. Jika benar-benar dapat melihatnya, ringkaskan gaya dan susunan panel dengan pendek. Jangan salin nama, logo, tarikh atau kandungan acara contoh.
+4. Jika tidak dapat melihat imej (termasuk jika hanya tajuk fail dapat dibaca), nyatakan hadnya dan minta pengguna muat naik contoh atau memilih untuk meneruskan tanpa contoh. Jangan reka penerangan.
+5. Selepas contoh diteliti atau pengguna bersetuju tanpa contoh, tawarkan tema. Minta maklumat yang belum lengkap, semak kandungan, kemudian tunggu pengesahan sebelum penjanaan.
+6. Jana helaian luar dahulu; tunggu semakan/kelulusan sebelum helaian dalam. Istilah “muka hadapan” dan “muka belakang” mungkin merujuk kepada helaian penuh, bukan kulit sahaja: sahkan maksud jika kabur.
+
+### Pautan contoh rujukan
+
+- **Contoh muka hadapan** (label pemberi contoh): [Buka di Google Drive](https://drive.google.com/file/d/16XGsgqE8duey19-D-CyUjaNRhQr1vz0Z/view?usp=drivesdk)
+- **Contoh muka belakang** (label pemberi contoh): [Buka di Google Drive](https://drive.google.com/file/d/1T4Ilpnezpm6FWsKLJ9TDkSWaOdaRSNzW/view?usp=drivesdk)
+
+Pautan dikekalkan tepat seperti diberikan. Label di atas bukan pengesahan kandungan visual bagi setiap fail. Gunakan contoh untuk gaya dan susunan sahaja. Kebenaran perkongsian dikawal oleh pemilik Drive; repo ini tidak mengubahnya. Jangan terbitkan semula imej atau butiran peribadi daripada contoh.
+
+**Status:** aliran satu pautan ini disediakan untuk ujian pengguna. Akses imej dan pematuhan arahan belum disahkan dalam ChatGPT. Jika akses repo gagal, gunakan kaedah salin-tampal di bawah.
+
 ## Mula dalam tiga langkah
 
 1. Buka [PROMPT-BUKU-PROGRAM.txt](PROMPT-BUKU-PROGRAM.txt), salin seluruh kandungannya, kemudian tampal dalam perbualan baharu ChatGPT.
@@ -14,7 +38,7 @@ Pakej prompt Bahasa Melayu untuk menghasilkan **buku program A4 landskap lipat d
 
 > Baca fail PROMPT-BUKU-PROGRAM.txt yang saya lampirkan. Ikuti arahan kerja di dalamnya untuk membantu saya membuat buku program. Mulakan pada peringkat pertama yang belum lengkap. Jangan jana reka bentuk dahulu.
 
-Jangan sekadar menghantar pautan GitHub dan menganggap AI telah membaca failnya. Menampal teks secara terus ialah laluan utama.
+Memberi pautan GitHub tidak menjamin AI telah membaca fail atau melihat contoh. Sahkan responsnya; gunakan salin-tampal sebagai jalan sandaran.
 
 ## Apa yang berlaku
 
@@ -33,7 +57,7 @@ Kedua-dua helaian ialah A4 landskap, 297 × 210 mm. Pengguna mesti menyemak fail
 - Jika tiada fungsi imej, AI diarahkan menawarkan draf teks dan spesifikasi susun atur, bukan berpura-pura telah menjana imej.
 - Imej yang kelihatan cantik belum tentu mempunyai ejaan tepat, logo tepat atau ukuran cetakan yang betul. Semak setiap panel dan buat cetakan ujian.
 - Logo hendaklah milik pengguna atau digunakan dengan izin. Jangan menganggap AI boleh mengekalkan logo secara tepat tanpa pemeriksaan.
-- Semua contoh acara di repo ini adalah rekaan. Tiada logo sekolah atau contoh booklet peribadi disertakan.
+- Contoh teks dalam `examples/` ialah rekaan. Pautan Drive ialah contoh luar yang dibekalkan pemilik; kandungannya tidak disalin ke repo. Tiada fail imej atau logo disertakan.
 - Fail PDF/imej hanya dianggap diserahkan apabila benar-benar wujud dan boleh dimuat turun. Pakej ini sendiri tidak menghasilkan fail tanpa tindakan AI dan pengguna.
 - Versi 0.1.0: semakan struktur, keselamatan kandungan dan pautan tempatan diuji secara automatik. Tingkah laku prompt dan penjanaan dalam akaun pengguna **belum diuji hujung-ke-hujung**. Lihat [EVALUATION.md](EVALUATION.md).
 

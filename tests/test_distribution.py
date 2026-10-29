@@ -36,8 +36,17 @@ class DistributionTests(unittest.TestCase):
                 continue
             text=path.read_text(encoding="utf-8")
             self.assertIsNone(re.search(r"[A-Za-z]:[\\/]Users[\\/]|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}",text),path.name)
+            public_free = text.replace("https://github.com/firdaushadi442/buku-program-ai", "PUBLIC_REPO").replace("https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/", "PUBLIC_RAW/")
             for forbidden in ["photocraft", "3456", "DevToolsActivePort", "firdaushadi442", "SMAUJ"]:
-                self.assertNotIn(forbidden.lower(),text.lower(),path.name)
+                self.assertNotIn(forbidden.lower(),public_free.lower(),path.name)
+
+    def test_supplied_links_preserved_without_images(self):
+        for name in ["README.md", "PROMPT-BUKU-PROGRAM.txt"]:
+            text = (ROOT/name).read_text(encoding="utf-8")
+            for link in ['https://drive.google.com/file/d/16XGsgqE8duey19-D-CyUjaNRhQr1vz0Z/view?usp=drivesdk', 'https://drive.google.com/file/d/1T4Ilpnezpm6FWsKLJ9TDkSWaOdaRSNzW/view?usp=drivesdk']:
+                self.assertIn(link, text)
+        images = [p for p in ROOT.rglob("*") if ".git" not in p.parts and p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp", ".gif")]
+        self.assertEqual(images, [])
 
     def test_limitations_are_explicit(self):
         text=(ROOT/"README.md").read_text(encoding="utf-8")
