@@ -1,0 +1,20 @@
+{
+  "name": "buku-program-ai-plugins",
+  "interface": {
+    "displayName": "Buku Program AI"
+  },
+  "plugins": [
+    {
+      "name": "buku-program-ai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/buku-program-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

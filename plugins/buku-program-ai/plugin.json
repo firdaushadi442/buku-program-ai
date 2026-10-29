@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "buku-program-ai",
+  "version": "0.1.0",
+  "description": "Panduan buku program A4 lipat dua dengan contoh visual dan penjanaan berperingkat.",
+  "license": "MIT",
+  "repository": "https://github.com/firdaushadi442/buku-program-ai",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Buku Program AI",
+        "shortDescription": "Bina buku program A4 lipat dua.",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Buatkan buku program menggunakan contoh yang dibundel."
+        ]
+      }
+    }
+  }
+}

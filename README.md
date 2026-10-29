@@ -2,7 +2,7 @@
 
 Pakej prompt Bahasa Melayu untuk menghasilkan **buku program A4 landskap lipat dua** menggunakan perbualan ChatGPT masing-masing.
 
-**Bukan aplikasi, bukan bot, bukan automasi pelayar dan bukan Custom GPT yang telah diterbitkan.** Tiada Python, API key atau pemasangan diperlukan untuk menggunakannya. SKILL.md disediakan untuk ejen yang membaca format itu; pengguna ChatGPT biasa menggunakan fail prompt.
+**Pakej prompt dan plugin berasaskan skill; bukan bot, bukan automasi pelayar dan bukan Custom GPT yang telah diterbitkan.** Pakej plugin untuk pemasangan ujian tersedia dalam `plugins/buku-program-ai/`; lihat [panduan plugin](PLUGIN.md). Pakej ini bukan automasi pelayar. Plugin belum dipasang atau diuji dalam akaun ChatGPT dan belum diterbitkan ke direktori rasmi. Tiada Python, API key atau pemasangan diperlukan untuk menggunakannya. SKILL.md disediakan untuk ejen yang membaca format itu; pengguna ChatGPT biasa menggunakan fail prompt.
 
 ## Langkah pertama — pilih ChatGPT Work
 

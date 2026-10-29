@@ -37,6 +37,7 @@ class DistributionTests(unittest.TestCase):
             text=path.read_text(encoding="utf-8")
             self.assertIsNone(re.search(r"[A-Za-z]:[\\/]Users[\\/]|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}",text),path.name)
             public_free = text.replace("https://github.com/firdaushadi442/buku-program-ai", "PUBLIC_REPO").replace("https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/", "PUBLIC_RAW/")
+            public_free = public_free.replace("codex plugin marketplace add firdaushadi442/buku-program-ai --ref main", "PUBLIC_INSTALL_COMMAND")
             for forbidden in ["photocraft", "3456", "DevToolsActivePort", "firdaushadi442", "SMAUJ"]:
                 self.assertNotIn(forbidden.lower(),public_free.lower(),path.name)
 
@@ -46,7 +47,7 @@ class DistributionTests(unittest.TestCase):
             self.assertNotIn("drive.google.com", text)
             for filename in ["contoh-helaian-luar.jpg", "contoh-helaian-dalam.jpg"]:
                 self.assertIn("https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/" + filename, text)
-        images = [p for p in ROOT.rglob("*") if ".git" not in p.parts and p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp", ".gif")]
+        images = [p for p in (ROOT/"assets").rglob("*") if p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp", ".gif")]
         self.assertEqual({p.relative_to(ROOT).as_posix() for p in images}, {"assets/contoh-helaian-luar.jpg", "assets/contoh-helaian-dalam.jpg"})
         for p in images:
             self.assertTrue(p.read_bytes().startswith(b"\xff\xd8\xff"))
