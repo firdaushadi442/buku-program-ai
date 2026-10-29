@@ -31,15 +31,15 @@ Kedua-dua imej diterbitkan dengan kebenaran pemberi contoh. Gunakan gaya dan sus
 
 **Contoh helaian luar:** panel kiri jawatankuasa kerja dan penghargaan; panel kanan kulit depan. Warna biru gelap, putih, magenta dan emas dengan hiasan bunga.
 
-![Contoh helaian luar](assets/contoh-helaian-luar.jpg)
+![Contoh helaian luar](assets/contoh-helaian-luar.png)
 
-[Fail imej terus — helaian luar](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-luar.jpg)
+[Fail imej terus — helaian luar](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-luar.png)
 
 **Contoh helaian dalam:** panel kiri pengenalan dan objektif; panel kanan tentatif program dan jawatankuasa induk. Gaya sepadan helaian luar.
 
-![Contoh helaian dalam](assets/contoh-helaian-dalam.jpg)
+![Contoh helaian dalam](assets/contoh-helaian-dalam.png)
 
-[Fail imej terus — helaian dalam](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-dalam.jpg)
+[Fail imej terus — helaian dalam](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-dalam.png)
 
 Penerangan teks ini ialah panduan susun atur, bukan bukti AI telah melihat imej. Jika hanya teks dapat dibaca, nyatakan perkara itu. Contoh mengandungi nama dan logo acara asal: jangan guna semula untuk acara pengguna. Imej contoh bukan aset berlesen MIT untuk penggunaan semula; lihat [notis aset](assets/NOTICE.md).
 
@@ -74,7 +74,7 @@ Kedua-dua helaian ialah A4 landskap, 297 × 210 mm. Pengguna mesti menyemak fail
 - Jika tiada fungsi imej, AI diarahkan menawarkan draf teks dan spesifikasi susun atur, bukan berpura-pura telah menjana imej.
 - Imej yang kelihatan cantik belum tentu mempunyai ejaan tepat, logo tepat atau ukuran cetakan yang betul. Semak setiap panel dan buat cetakan ujian.
 - Logo hendaklah milik pengguna atau digunakan dengan izin. Jangan menganggap AI boleh mengekalkan logo secara tepat tanpa pemeriksaan.
-- Contoh teks dalam `examples/` ialah rekaan. Dua imej dalam `assets/` ialah contoh sebenar yang diterbitkan dengan izin; nama dan logo di dalamnya bukan untuk disalin ke acara lain.
+- Contoh teks dalam `examples/` ialah rekaan. Dua imej dalam `assets/` ialah contoh dummy SMA CONTOH yang dibekalkan pengguna; nama, logo dan butirannya adalah rujukan reka bentuk, bukan kandungan untuk disalin ke acara lain.
 - Fail PDF/imej hanya dianggap diserahkan apabila benar-benar wujud dan boleh dimuat turun. Pakej ini sendiri tidak menghasilkan fail tanpa tindakan AI dan pengguna.
 - Versi 0.1.0: semakan struktur, keselamatan kandungan dan pautan tempatan diuji secara automatik. Tingkah laku prompt dan penjanaan dalam akaun pengguna **belum diuji hujung-ke-hujung**. Lihat [EVALUATION.md](EVALUATION.md).
 

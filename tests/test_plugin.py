@@ -20,7 +20,7 @@ class PluginTests(unittest.TestCase):
         self.assertEqual(entry["policy"]["installation"], "AVAILABLE")
 
     def test_bundled_images_identical(self):
-        for name in ["contoh-helaian-luar.jpg", "contoh-helaian-dalam.jpg"]:
+        for name in ["contoh-helaian-luar.png", "contoh-helaian-dalam.png"]:
             source = (ROOT/"assets"/name).read_bytes()
             bundled = (PACKAGE/"skills/buku-program/assets"/name).read_bytes()
             self.assertEqual(hashlib.sha256(source).digest(), hashlib.sha256(bundled).digest())
@@ -32,7 +32,7 @@ class PluginTests(unittest.TestCase):
         self.assertNotIn("raw.githubusercontent.com", text)
         self.assertNotIn("drive.google.com", text)
         self.assertNotIn("LANGKAH PERTAMA — GUNAKAN CHATGPT WORK", text)
-        for name in ["contoh-helaian-luar.jpg", "contoh-helaian-dalam.jpg"]:
+        for name in ["contoh-helaian-luar.png", "contoh-helaian-dalam.png"]:
             self.assertIn("assets/"+name, text)
 
 if __name__ == "__main__":

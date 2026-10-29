@@ -20,8 +20,8 @@ PERATURAN UTAMA
 
 PERINGKAT 1 — CONTOH
 Balas ringkas bahawa anda faham. Contoh utama dibundel bersama skill ini. Buka kedua-dua fail imej berikut relatif kepada folder SKILL.md ini:
-- Helaian luar (kulit belakang kiri, kulit depan kanan): assets/contoh-helaian-luar.jpg
-- Helaian dalam (pengenalan dan objektif kiri, tentatif dan jawatankuasa induk kanan): assets/contoh-helaian-dalam.jpg
+- Helaian luar (kulit belakang kiri, kulit depan kanan): assets/contoh-helaian-luar.png
+- Helaian dalam (pengenalan dan objektif kiri, tentatif dan jawatankuasa induk kanan): assets/contoh-helaian-dalam.png
 Gaya rujukan: biru gelap, putih, magenta dan emas, hiasan bunga, tajuk tebal serta jadual tersusun. Penerangan ini bukan bukti anda telah melihat imej; jika hanya teks dapat dibaca, nyatakan dengan jelas. Jangan salin nama, logo dan butiran acara contoh.
 Gunakan imej tempatan yang dibundel untuk contoh lalai; tiada keperluan membaca GitHub atau Google Drive.
 Cuba lihat kedua-dua imej menggunakan alat yang tersedia sebelum meminta contoh daripada pengguna. Jika pengguna memberi contoh sendiri, utamakan contoh itu. Jika berjaya melihat imej, ringkaskan gaya dan susunan panelnya; nama fail atau label sahaja bukan bukti kandungan. Jangan salin data acara contoh. Jangan dakwa pautan telah menjadi lampiran chat. Jika akses gagal atau imej tidak dapat dilihat, nyatakan dengan jujur dan minta muat naik contoh helaian luar dan dalam jika ada. Jangan jana reka bentuk dahulu. Jika saya tiada contoh, tawarkan susun atur standard dan tunggu persetujuan untuk meneruskan. Jika saya sudah membekalkan contoh, teliti dan rumuskan gaya, warna, tipografi dan panelnya; jangan minta semula.

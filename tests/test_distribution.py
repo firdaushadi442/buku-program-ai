@@ -45,12 +45,12 @@ class DistributionTests(unittest.TestCase):
         for name in ["README.md", "PROMPT-BUKU-PROGRAM.txt"]:
             text = (ROOT/name).read_text(encoding="utf-8")
             self.assertNotIn("drive.google.com", text)
-            for filename in ["contoh-helaian-luar.jpg", "contoh-helaian-dalam.jpg"]:
+            for filename in ["contoh-helaian-luar.png", "contoh-helaian-dalam.png"]:
                 self.assertIn("https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/" + filename, text)
         images = [p for p in (ROOT/"assets").rglob("*") if p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp", ".gif")]
-        self.assertEqual({p.relative_to(ROOT).as_posix() for p in images}, {"assets/contoh-helaian-luar.jpg", "assets/contoh-helaian-dalam.jpg"})
+        self.assertEqual({p.relative_to(ROOT).as_posix() for p in images}, {"assets/contoh-helaian-luar.png", "assets/contoh-helaian-dalam.png"})
         for p in images:
-            self.assertTrue(p.read_bytes().startswith(b"\xff\xd8\xff"))
+            self.assertTrue(p.read_bytes().startswith(b"\x89PNG\r\n\x1a\n"))
         self.assertTrue((ROOT/"assets/NOTICE.md").is_file())
 
     def test_limitations_are_explicit(self):
