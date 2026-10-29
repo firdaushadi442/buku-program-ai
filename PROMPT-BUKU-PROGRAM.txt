@@ -10,7 +10,11 @@ PERATURAN UTAMA
 - Tiada keperluan memasang perisian, mengawal pelayar atau menghubungkan akaun lain.
 
 PERINGKAT 1 — CONTOH
-Balas ringkas bahawa anda faham. Contoh lalai dibekalkan melalui pautan berikut sahaja:
+Balas ringkas bahawa anda faham. Contoh utama tersedia dalam repository. Cuba lihat fail imej terus berikut terlebih dahulu:
+- Helaian luar (kulit belakang kiri, kulit depan kanan): https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-luar.jpg
+- Helaian dalam (pengenalan dan objektif kiri, tentatif dan jawatankuasa induk kanan): https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-dalam.jpg
+Gaya rujukan: biru gelap, putih, magenta dan emas, hiasan bunga, tajuk tebal serta jadual tersusun. Penerangan ini bukan bukti anda telah melihat imej; jika hanya teks dapat dibaca, nyatakan dengan jelas. Jangan salin nama, logo dan butiran acara contoh.
+Pautan Drive sandaran asal:
 - Contoh muka hadapan (label pemberi contoh): https://drive.google.com/file/d/16XGsgqE8duey19-D-CyUjaNRhQr1vz0Z/view?usp=drivesdk
 - Contoh muka belakang (label pemberi contoh): https://drive.google.com/file/d/1T4Ilpnezpm6FWsKLJ9TDkSWaOdaRSNzW/view?usp=drivesdk
 Cuba lihat kedua-dua imej menggunakan alat yang tersedia sebelum meminta contoh daripada pengguna. Jika pengguna memberi contoh sendiri, utamakan contoh itu. Jika berjaya melihat imej, ringkaskan gaya dan susunan panelnya; nama fail atau label sahaja bukan bukti kandungan. Jangan salin data acara contoh. Jangan dakwa pautan telah menjadi lampiran chat. Jika akses gagal atau imej tidak dapat dilihat, nyatakan dengan jujur dan minta muat naik contoh helaian luar dan dalam jika ada. Jangan jana reka bentuk dahulu. Jika saya tiada contoh, tawarkan susun atur standard dan tunggu persetujuan untuk meneruskan. Jika saya sudah membekalkan contoh, teliti dan rumuskan gaya, warna, tipografi dan panelnya; jangan minta semula.
@@ -41,4 +45,4 @@ Bezakan draf visual daripada fail siap cetak. Nisbah landskap sahaja bukan bukti
 Serahkan fail yang benar-benar tersedia, nyatakan apa yang telah diperiksa dan apa yang belum. Untuk cetakan dua muka, cadangkan cetakan ujian satu helai pada skala 100% dan semak arah belakang serta lipatan; tetapan flip berbeza mengikut pencetak. Tunggu persetujuan sebelum menerbitkan atau menghantar kepada pihak lain.
 
 MULAKAN SEKARANG
-Ikut peringkat pertama yang belum lengkap berdasarkan bahan saya. Jika belum ada bahan, minta contoh reka bentuk sahaja dahulu dan jangan jana buku program lagi.
+Ikut peringkat pertama yang belum lengkap berdasarkan bahan saya. Jika belum ada bahan pengguna, cuba teliti contoh lalai dahulu dan jangan jana buku program lagi. Jika imej berjaya dilihat, teruskan dengan soalan tema; jika gagal, minta lampiran manual atau persetujuan meneruskan berdasarkan susun atur teks sahaja.

@@ -40,13 +40,16 @@ class DistributionTests(unittest.TestCase):
             for forbidden in ["photocraft", "3456", "DevToolsActivePort", "firdaushadi442", "SMAUJ"]:
                 self.assertNotIn(forbidden.lower(),public_free.lower(),path.name)
 
-    def test_supplied_links_preserved_without_images(self):
+    def test_supplied_links_and_approved_images(self):
         for name in ["README.md", "PROMPT-BUKU-PROGRAM.txt"]:
             text = (ROOT/name).read_text(encoding="utf-8")
             for link in ['https://drive.google.com/file/d/16XGsgqE8duey19-D-CyUjaNRhQr1vz0Z/view?usp=drivesdk', 'https://drive.google.com/file/d/1T4Ilpnezpm6FWsKLJ9TDkSWaOdaRSNzW/view?usp=drivesdk']:
                 self.assertIn(link, text)
         images = [p for p in ROOT.rglob("*") if ".git" not in p.parts and p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp", ".gif")]
-        self.assertEqual(images, [])
+        self.assertEqual({p.relative_to(ROOT).as_posix() for p in images}, {"assets/contoh-helaian-luar.jpg", "assets/contoh-helaian-dalam.jpg"})
+        for p in images:
+            self.assertTrue(p.read_bytes().startswith(b"\xff\xd8\xff"))
+        self.assertTrue((ROOT/"assets/NOTICE.md").is_file())
 
     def test_limitations_are_explicit(self):
         text=(ROOT/"README.md").read_text(encoding="utf-8")

@@ -13,18 +13,37 @@ Tampal mesej ini dalam ChatGPT anda:
 ### Arahan permulaan untuk AI
 
 1. Baca [prompt penuh](PROMPT-BUKU-PROGRAM.txt). Jika halaman fail tidak dapat dibaca, cuba [versi teks mentah](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/PROMPT-BUKU-PROGRAM.txt). Jangan sekadar meringkaskan repo; jalankan aliran bantu pengguna membuat buku program.
-2. Cuba lihat kedua-dua contoh Drive di bawah menggunakan alat yang tersedia. Pautan sahaja disediakan; imej tidak disimpan dalam repo. Jangan dakwa imej telah dimasukkan sebagai lampiran secara automatik.
+2. Cuba lihat kedua-dua imej contoh dalam repo di bawah, termasuk pautan imej terus jika halaman GitHub tidak memaparkannya. Jangan dakwa imej telah menjadi lampiran chat secara automatik. Pautan Drive dikekalkan sebagai sumber sandaran.
 3. Jika benar-benar dapat melihatnya, ringkaskan gaya dan susunan panel dengan pendek. Jangan salin nama, logo, tarikh atau kandungan acara contoh.
 4. Jika tidak dapat melihat imej (termasuk jika hanya tajuk fail dapat dibaca), nyatakan hadnya dan minta pengguna muat naik contoh atau memilih untuk meneruskan tanpa contoh. Jangan reka penerangan.
 5. Selepas contoh diteliti atau pengguna bersetuju tanpa contoh, tawarkan tema. Minta maklumat yang belum lengkap, semak kandungan, kemudian tunggu pengesahan sebelum penjanaan.
 6. Jana helaian luar dahulu; tunggu semakan/kelulusan sebelum helaian dalam. Istilah “muka hadapan” dan “muka belakang” mungkin merujuk kepada helaian penuh, bukan kulit sahaja: sahkan maksud jika kabur.
 
-### Pautan contoh rujukan
+### Imej contoh dalam repository
+
+Kedua-dua imej diterbitkan dengan kebenaran pemberi contoh. Gunakan gaya dan susun atur sahaja, bukan nama, logo atau maklumat acara di dalamnya.
+
+**Contoh helaian luar:** panel kiri jawatankuasa kerja dan penghargaan; panel kanan kulit depan. Warna biru gelap, putih, magenta dan emas dengan hiasan bunga.
+
+![Contoh helaian luar](assets/contoh-helaian-luar.jpg)
+
+[Fail imej terus — helaian luar](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-luar.jpg)
+
+**Contoh helaian dalam:** panel kiri pengenalan dan objektif; panel kanan tentatif program dan jawatankuasa induk. Gaya sepadan helaian luar.
+
+![Contoh helaian dalam](assets/contoh-helaian-dalam.jpg)
+
+[Fail imej terus — helaian dalam](https://raw.githubusercontent.com/firdaushadi442/buku-program-ai/main/assets/contoh-helaian-dalam.jpg)
+
+Penerangan teks ini ialah panduan susun atur, bukan bukti AI telah melihat imej. Jika hanya teks dapat dibaca, nyatakan perkara itu. Contoh mengandungi nama dan logo acara asal: jangan guna semula untuk acara pengguna. Imej contoh bukan aset berlesen MIT untuk penggunaan semula; lihat [notis aset](assets/NOTICE.md).
+
+### Pautan Drive sandaran
+
 
 - **Contoh muka hadapan** (label pemberi contoh): [Buka di Google Drive](https://drive.google.com/file/d/16XGsgqE8duey19-D-CyUjaNRhQr1vz0Z/view?usp=drivesdk)
 - **Contoh muka belakang** (label pemberi contoh): [Buka di Google Drive](https://drive.google.com/file/d/1T4Ilpnezpm6FWsKLJ9TDkSWaOdaRSNzW/view?usp=drivesdk)
 
-Pautan dikekalkan tepat seperti diberikan. Label di atas bukan pengesahan kandungan visual bagi setiap fail. Gunakan contoh untuk gaya dan susunan sahaja. Kebenaran perkongsian dikawal oleh pemilik Drive; repo ini tidak mengubahnya. Jangan terbitkan semula imej atau butiran peribadi daripada contoh.
+Pautan dikekalkan tepat seperti diberikan. Label di atas bukan pengesahan kandungan visual bagi setiap fail. Gunakan contoh untuk gaya dan susunan sahaja. Kebenaran perkongsian dikawal oleh pemilik Drive; repo ini tidak mengubahnya. Jangan salin butiran peribadi daripada contoh ke buku program baharu.
 
 **Status:** aliran satu pautan ini disediakan untuk ujian pengguna. Akses imej dan pematuhan arahan belum disahkan dalam ChatGPT. Jika akses repo gagal, gunakan kaedah salin-tampal di bawah.
 
@@ -57,7 +76,7 @@ Kedua-dua helaian ialah A4 landskap, 297 × 210 mm. Pengguna mesti menyemak fail
 - Jika tiada fungsi imej, AI diarahkan menawarkan draf teks dan spesifikasi susun atur, bukan berpura-pura telah menjana imej.
 - Imej yang kelihatan cantik belum tentu mempunyai ejaan tepat, logo tepat atau ukuran cetakan yang betul. Semak setiap panel dan buat cetakan ujian.
 - Logo hendaklah milik pengguna atau digunakan dengan izin. Jangan menganggap AI boleh mengekalkan logo secara tepat tanpa pemeriksaan.
-- Contoh teks dalam `examples/` ialah rekaan. Pautan Drive ialah contoh luar yang dibekalkan pemilik; kandungannya tidak disalin ke repo. Tiada fail imej atau logo disertakan.
+- Contoh teks dalam `examples/` ialah rekaan. Dua imej dalam `assets/` ialah contoh sebenar yang diterbitkan dengan izin; nama dan logo di dalamnya bukan untuk disalin ke acara lain.
 - Fail PDF/imej hanya dianggap diserahkan apabila benar-benar wujud dan boleh dimuat turun. Pakej ini sendiri tidak menghasilkan fail tanpa tindakan AI dan pengguna.
 - Versi 0.1.0: semakan struktur, keselamatan kandungan dan pautan tempatan diuji secara automatik. Tingkah laku prompt dan penjanaan dalam akaun pengguna **belum diuji hujung-ke-hujung**. Lihat [EVALUATION.md](EVALUATION.md).
 
@@ -81,4 +100,4 @@ Rujuk dokumentasi rasmi OpenAI: “ChatGPT capabilities overview”, “Uploadin
 
 ## Lesen
 
-MIT — lihat [LICENSE](LICENSE). Aliran kerja diadaptasi daripada panduan buku program peribadi dengan izin pemilik; tiada kod automasi, aset atau data akaun asal disalin. Projek komuniti, bukan produk rasmi OpenAI.
+MIT — lihat [LICENSE](LICENSE). Aliran kerja diadaptasi daripada panduan buku program peribadi dengan izin pemilik; tiada kod automasi atau data akaun asal disalin. Dua imej rujukan berasingan dikecualikan daripada MIT; lihat `assets/NOTICE.md`. Projek komuniti, bukan produk rasmi OpenAI.
