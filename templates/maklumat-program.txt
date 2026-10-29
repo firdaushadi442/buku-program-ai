@@ -1,0 +1,23 @@
+BORANG MAKLUMAT BUKU PROGRAM
+Isi yang berkenaan sahaja. Jangan masukkan data sulit.
+
+Nama program:
+Penganjur:
+Tarikh:
+Hari (jika sudah disahkan):
+Masa:
+Tempat:
+Bahasa:
+Tema atau warna pilihan:
+Tetamu / perasmi (pilihan; nama dan gelaran tepat):
+Pengenalan / objektif ringkas:
+Atur cara (masa | aktiviti):
+Jawatankuasa untuk dipaparkan (pilihan):
+Penghargaan / penutup (pilihan):
+Logo sah (lampirkan atau pilih ruang kosong):
+Contoh reka bentuk (jika ada):
+Format hasil diingini (imej / PDF jika tersedia / draf teks):
+Bahagian yang mesti dikekalkan tepat:
+Maklumat yang belum disahkan:
+
+Borang ini bahan kandungan sahaja. Gunakan bersama PROMPT-BUKU-PROGRAM.txt.
